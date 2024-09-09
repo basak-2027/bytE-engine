@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bytE Engine</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favcon.jpg">
+  </head>
+  <body>
+    <h1 class="hone">bytE Engine</h1>
+    <header>
+      <nav>
+        
+        <ul>
+          <li><a href="#" id="home-link">Home</a></li>
+          <li><a href="#" id="about-link">About</a></li>
+          <li>
+            <a href="#" id="service-link">Service</a>
+            <ul class="service-dropdown">
+              <li><a href="#"><b>Our Services</b></a></li>
+              <li><a href="#">Identity Verification</a></li>
+              <li><a href="#">Data Protection</a></li>
+              <li><a href="#">Secure Login Solutions</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="home" id="home-section">
+        <h4>Welcome to bytE Engine</h4>
+        <p>We specialize in advanced ID verification and security services.</p>
+      </section>
+
+      <section class="about" id="about-section" style="display: none">
+        <h1>About Us</h1>
+        <p>
+          bytE Engine provides secure and reliable solutions for identity
+          verification, data management, and authentication services. Our team
+          of experts is dedicated to delivering innovative and effective
+          solutions that meet the evolving needs of our clients. We are
+          committed to providing exceptional customer service and support to
+          ensure that our clients receive the best possible experience.
+        </p>
+      </section>
+
+    
+    </main>
+
+    
+  </body>
+</html>
+
+      <section class="upload">
+        <h1>Upload Document</h1>
+        <input type="file" id="document-upload" />
+        <button id="scan-button">Scan Document</button>
+      </section>
+
+      <section class="results">
+        <h1>Scan Results</h1>
+        <div class="results-container">
+          <!-- Scan results will be displayed here -->
+        </div>
+      </section>
+
+      <section class="report">
+        <h1>Report</h1>
+        <table id="report-table">
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Location</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Report data will be displayed here -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+  <script src="script.js"></script>
+  </body>
+</html>
